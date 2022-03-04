@@ -5,9 +5,10 @@ This is for me to setup whenever get a new mac.
 <br>
 
 ## Requirements
-git
 
-xcode (for flutter)
+- zsh
+- git
+- xcode (for flutter)
 
 <br>
 
@@ -26,4 +27,3 @@ git clone https://github.com/Doohyeon-Kim/development-tools-installer-for-mac.gi
 cd ./development-tools-installer-for-mac
 ./development-tools-installer-for-mac.zsh
 ```
-
