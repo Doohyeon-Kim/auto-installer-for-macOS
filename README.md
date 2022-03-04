@@ -2,10 +2,14 @@
 
 This is for me to setup whenever get a new mac.
 
+<br>
+
 ## Requirements
 git
 
 xcode (for flutter)
+
+<br>
 
 ## How to use
 
