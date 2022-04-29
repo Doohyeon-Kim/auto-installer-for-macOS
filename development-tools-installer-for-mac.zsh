@@ -10,6 +10,7 @@ source $HOME/.zshrc
 source $HOME/.zshrc
 ./flutter-installer.zsh
 ./nestjs-installer.zsh
+./postgresql-installer.zsh
 ./terraform-installer.zsh
 ./ansible-installer.zsh
 ./packer-installer.zsh
