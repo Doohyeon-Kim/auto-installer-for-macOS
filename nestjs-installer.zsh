@@ -12,5 +12,9 @@ npm i -g @nestjs/cli
 #Check NestJs installed
 nest --version
 
+#Install yarn berry
+npm install -g yarn berry
 
+yarn set version berry
 
+yarn -v
