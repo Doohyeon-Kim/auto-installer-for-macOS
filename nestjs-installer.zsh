@@ -14,5 +14,3 @@ nest --version
 
 #Install yarn berry
 npm install -g yarn berry
-
-yarn -v
