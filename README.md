@@ -27,3 +27,11 @@ git clone https://github.com/Doohyeon-Kim/development-tools-installer-for-mac.gi
 cd ./development-tools-installer-for-mac
 ./development-tools-installer-for-mac.zsh
 ```
+
+
+## Optional (*If you need them, apply them manually.*)
+
+.zshrc
+
+com.googlecode.iterm2.plist &emsp; // (*iterm2 preference setting*)
+
