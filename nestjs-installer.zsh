@@ -1,7 +1,7 @@
 #!/bin/zsh
 
-#Install Node.js (16.14.0 LTS)
-brew install node@16
+#Install Node.js (18.4.0)
+brew install node@18
 
 #Check Node.js installed 
 node -v
