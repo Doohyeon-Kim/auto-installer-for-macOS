@@ -5,6 +5,7 @@ chmod +x *.zsh
 echo "" >> $HOME/.zshrc
 ./essential.zsh
 source $HOME/.zshrc
+./applications.zsh
 ./xcode-setup.zsh
 ./git.zsh
 ./intellij-ultimate.zsh
