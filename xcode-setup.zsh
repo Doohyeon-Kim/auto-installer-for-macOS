@@ -5,3 +5,5 @@ sudo xcodebuild -runFirstLaunch
 sudo xcodebuild -license
 open -a Simulator
 
+sudo gem install cocoapods
+pod setup
