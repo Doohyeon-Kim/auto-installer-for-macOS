@@ -7,5 +7,5 @@ brew install postgresql
 psql --version
 
 
-
+brew services start postgresql
 
