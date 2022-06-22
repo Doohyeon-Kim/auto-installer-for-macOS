@@ -6,7 +6,7 @@ mkdir $HOME/development
 cd ~/development
 unzip ~/auto-installer-for-macOS/flutter_macos_arm64_3.0.2-stable.zip
 
-echo "FLUTTER_PATH=development/flutter/bin" >> $HOME/.zshrc
+echo "FLUTTER_PATH=${HOME}/development/flutter/bin" >> $HOME/.zshrc
 source $HOME/.zshrc
 
 echo $PATH
