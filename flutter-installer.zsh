@@ -1,8 +1,10 @@
 #!/bin/zsh
 
+cd ~/auto-installer-for-macOS
+curl -o flutter-3.0.2 https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.0.2-stable.zip
 mkdir $HOME/development
-#brew install flutter
-git clone https://github.com/flutter/flutter.git -b stable $HOME/development
+cd ~/development
+unzip ~/auto-installer-for-macOS/flutter_macos_arm64_3.0.2-stable.zip
 
 echo "FLUTTER_PATH=development/flutter/bin" >> $HOME/.zshrc
 echo "export PATH=\"\$PATH:\$FLUTTER_PATH\"" >> $HOME/.zshrc
@@ -10,7 +12,7 @@ echo "export PATH=\"\$PATH:\$FLUTTER_PATH\"" >> $HOME/.zshrc
 echo $PATH
 which flutter
 
-$ sudo softwareupdate --install-rosetta --agree-to-license
+sudo softwareupdate --install-rosetta --agree-to-license
 
 source $HOME/.zshrc
 flutter doctor
