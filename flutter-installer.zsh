@@ -8,6 +8,7 @@ unzip ~/auto-installer-for-macOS/flutter_macos_arm64_3.0.2-stable.zip
 
 echo "FLUTTER_PATH=development/flutter/bin" >> $HOME/.zshrc
 echo "export PATH=\"\$PATH:\$FLUTTER_PATH\"" >> $HOME/.zshrc
+source $HOME/.zshrc
 
 echo $PATH
 which flutter
