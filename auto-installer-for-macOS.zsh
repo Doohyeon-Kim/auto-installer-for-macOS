@@ -21,4 +21,7 @@ source $HOME/.zshrc
 source $HOME/.zshrc
 ./set-up-environment.zsh
 
+
+echo "export PATH=\"\$PATH:\$HOMEBREW_PATH\$FLUTTER_PATH\"" >> $HOME/.zshrc
+
 sudo rm -rf $HOME/auto-installer-for-macOS
