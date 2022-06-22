@@ -18,14 +18,15 @@ This is for me to setup whenever get a new mac.
 
 ``` bash 
 cd ~
-git clone https://github.com/Doohyeon-Kim/development-tools-installer-for-mac.git
+git clone https://github.com/Doohyeon-Kim/auto-installer-for-macOS.git
 ```
 
-2. Run development-tools-installer-for-mac.zsh in development-tools-installer-for-mac directory like below.
+2. Run auto-installer-for-macOS.zsh in auto-installer-for-macOS directory like below.
 
 ``` bash
-cd ./development-tools-installer-for-mac
-./development-tools-installer-for-mac.zsh
+cd ./auto-installer-for-macOS
+chmod +x auto-installer-for-macOS.zsh
+./auto-installer-for-macOS
 ```
 
 
