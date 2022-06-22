@@ -21,4 +21,4 @@ source $HOME/.zshrc
 source $HOME/.zshrc
 ./set-up-environment.zsh
 
-sudo rm -rf $HOME/development-tools-installer-for-mac
+sudo rm -rf $HOME/auto-installer-for-macOS
