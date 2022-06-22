@@ -5,5 +5,5 @@ sudo xcodebuild -runFirstLaunch
 sudo xcodebuild -license
 open -a Simulator
 
-sudo gem install cocoapods
+arch -x86_64 sudo gem install ffi
 pod setup
