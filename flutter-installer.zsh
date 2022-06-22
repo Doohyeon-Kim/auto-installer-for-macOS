@@ -1,14 +1,16 @@
 #!/bin/zsh
 
-mkdir $HOME/Development
+mkdir $HOME/development
 #brew install flutter
-git clone https://github.com/flutter/flutter.git -b stable $HOME/Development
+git clone https://github.com/flutter/flutter.git -b stable $HOME/development
 
 echo "FLUTTER_PATH=$(pwd)/flutter/bin" >> $HOME/.zshrc
 echo "export PATH=\"\$PATH:\$FLUTTER_PATH\"" >> $HOME/.zshrc
 
 echo $PATH
 which flutter
+
+$ sudo softwareupdate --install-rosetta --agree-to-license
 
 source $HOME/.zshrc
 flutter doctor
