@@ -12,3 +12,12 @@ brew install --cask spectacle
 
 # Install appcleaner
 brew install --cask appcleaner
+
+# Install Notion
+brew install --cask notion
+
+# Install Slack
+brew install --cask slack
+
+# Install figma
+brew install --cask figma
