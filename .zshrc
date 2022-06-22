@@ -8,3 +8,5 @@ export PATH="$PATH:$FLUTTER_PATH"
 
 JAVA_HOME_11=/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
 export JAVA_HOME=$JAVA_HOME_11
+
+eval $(/opt/homebrew/bin/brew shellenv)
