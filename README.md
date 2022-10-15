@@ -6,11 +6,20 @@ This is for me to setup whenever get a new mac.
 
 ## Requirements
 
+- homebrew
 - zsh
 - git
 - xcode (for flutter)
 
 <br>
+
+## Prepareing Requirements
+### homebrew
+1. Open terminal to enter command
+2. Enter command below
+
+```bash /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```
+ 
 
 ## How to use
 
