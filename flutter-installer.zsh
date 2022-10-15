@@ -2,11 +2,10 @@
 
 brew install flutter
 
-mkdir $HOME/development
-cd ~/development
+mkdir $HOME/Development
+cd ~/Development
 
-mv /opt/homebrew/bin/flutter ~/development/
-
+mv /opt/homebrew/bin/flutter ~/Development/
 
 echo "FLUTTER_PATH=${HOME}/development/flutter/bin" >> $HOME/.zshrc
 source $HOME/.zshrc
