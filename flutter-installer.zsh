@@ -1,10 +1,12 @@
 #!/bin/zsh
 
-cd ~/auto-installer-for-macOS
-curl -o flutter-3.0.2 https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.0.2-stable.zip
+brew install flutter
+
 mkdir $HOME/development
 cd ~/development
-unzip ~/auto-installer-for-macOS/flutter_macos_arm64_3.0.2-stable.zip
+
+mv /opt/homebrew/bin/flutter ~/development/
+
 
 echo "FLUTTER_PATH=${HOME}/development/flutter/bin" >> $HOME/.zshrc
 source $HOME/.zshrc
