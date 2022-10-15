@@ -19,7 +19,13 @@ This is for me to setup whenever get a new mac.
 2. Enter command below
 
 ```bash /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```
- 
+
+3. Run these three commands in your terminal to add Homebrew to your PATH:
+``` bash
+echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/<UserName>/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/<UserName>/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
 
 ## How to use
 
