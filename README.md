@@ -4,6 +4,26 @@ This is for me to setup whenever get a new mac.
 
 <br>
 
+## Components
+
+### Development Tools
+- IntelliJ IDEA Ultimate
+- Flutter
+- Nest.js
+- Spectacle
+- iTerm2
+- Figma
+- PostgreSQL
+- Terraform
+
+### Application
+- Chrome
+- AppCleaner
+- Notion
+- Slack
+
+<br>
+
 ## Requirements
 
 - homebrew
@@ -16,16 +36,30 @@ This is for me to setup whenever get a new mac.
 ## Prepareing Requirements
 ### homebrew
 1. Open terminal to enter command
-2. Enter command below
+2. Run command below
 
 ```bash /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```
 
 3. Run these three commands in your terminal to add Homebrew to your PATH:
 ``` bash
-echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/<UserName>/.zprofile
+echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/<UserName>/.zprofile ## You can skip this.
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/<UserName>/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
+
+### git
+1. Run command below
+```bash
+brew install git
+```
+
+### zsh
+It would be installed already.
+
+### xcode
+Go to App Store and install it.
+
+<br>
 
 ## How to use
 
