@@ -10,7 +10,8 @@ brew install --cask iterm2
 # Install spectacle
 brew install --cask spectacle
 
-# Install brew install --cask raycast
+# Install raycast
+brew install --cask raycast
 
 # Install appcleaner
 brew install --cask appcleaner
