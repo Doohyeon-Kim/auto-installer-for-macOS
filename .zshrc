@@ -1,4 +1,4 @@
-export PS1="%1d \$ "
+export PS1="${USERNAME} \$"
 
 FLUTTER_PATH=$HOME/Development/flutter/bin
 ANDROID_PATH=$HOME/Library/Android
